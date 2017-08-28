@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Registration Form
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="js/script.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+ <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.js"></script>
+ <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.validate.js"></script> 
+</head>
+<header>
+	Job Seeker Registration
+</header>
+
+<body>
+<div class="flex">
+<div class="img">
+<img src="https://image.ibb.co/c7GjvF/bgimg1.jpg"  height="auto" width="150%"> 
+</div>
+
+	<div class="form">
+	<form action="Registrationform" method="post" id="loginForm">
+	<h2>Registration Form</h2>
+	
+	First name<br><input type="text" class="firstname" name="firstname" placeholder="Enter the First name.." size="21" required><br><br>
+	Last name<br><input type="text" class="lastname" name="lastname" placeholder="Enter the Last name.." size="21" required><br><br>
+	Date of birth<br><input type="date" name="dateofbirth" style="width:179px;" required><br><br>
+	Gender<br><input type="radio" name="gender" value="male">Male
+	       <input type="radio" name="gender" value="female">Female
+	       <input type="radio" name="gender" value="others">Others<br><br>
+	Email id<br><input type="email" name="email" placeholder="Enter the email id.." size="21" required><br><br>
+	Mobile Number<br><input class="mobile" type="number" name="mobile"  placeholder="Enter the Mobile number.." pattern="[0-9]" onKeyPress="if(this.value.length==10) return false;" required><br><br>
+	Aadhaar Number<br><input type="number" class="aadhar" name="aadhaar" placeholder="Enter the Aadhaar number.."  pattern="[0-9]" onKeyPress="if(this.value.length==12) return false;" required> <br><br>
+	User name<br><input type="text" class="username" name="username"  placeholder="Enter the User name.." size="21"  required> <br><br>
+	
+	Address:<br><textarea name="address" placeholder="Enter your address..." required></textarea><br><br>
+	Job Category<br><input type="radio" name="jobcategory" id="action1" value="fresher">Fresher<br>
+				 <input type="radio" name="jobcategory" id="action2" value="experienced">Experienced<br><br>
+	<div class="perform1">
+	PassedOut<br><input type="text" name="passedout" placeholder="Enter the passed out year.." size="21" onKeyPress="if(this.value.length==4) return false;" ><br><br>
+	CGPA<br><input type="text" name="cgpa" placeholder="Enter the CGPA.." size="21" ><br><br>
+	</div>
+	<div class="perform2">
+	Year Of Experience<br><input type="text" name="yearsofexperience" placeholder="Enter the year of experience.." size="21" ><br><br>
+	Domain Of Work<br><input type="text" name="domain" placeholder="Enter the domain.." size="21"><br><br></div> 
+	<input type="submit" value="Submit" id="btnSubmit" style="color:white;background-color:#345d00;border:1px solid #345d00">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" style="color:white;background-color:#345d00;border:1px solid #345d00">
+	</form>
+	</div>
+</div>
+<div class="clear"></div>
+<footer>
+<p class="center-align">Copyright &copy; for Registration.</p>
+
+</footer>
+</body>
+</html>

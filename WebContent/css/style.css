@@ -1,0 +1,62 @@
+header
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding: 23px;
+	font-size:28px;
+	margin:0px;
+	z-index:1;
+
+}
+input
+{
+	border-radius: 5px;
+	padding:5px;
+}
+textarea
+{
+	border-radius: 5px;
+}
+div.img
+{   
+	
+	
+	
+	float: left;
+}
+
+body
+{	
+	font-family: 'Roboto Slab', serif;
+	overflow:scroll;
+}
+div.form
+{	border-left:1px solid #d3d1d4;
+	float: right;
+	width:40%;
+	line-height: 1em;
+    padding-left:75px;
+    height:auto;
+    margin-left:20%; 
+       
+}
+div.flex
+{
+	display:flex;
+}
+.perform1,.perform2
+{
+display:none;
+}
+.clear
+{
+	clear:both;
+}
+p.center-align
+{   padding:10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
